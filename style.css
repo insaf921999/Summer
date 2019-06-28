@@ -1,0 +1,134 @@
+*
+{
+    padding:0; 
+    margin: 0px; 
+}
+h1{
+    color: black; 
+    border-style:solid; 
+    background-color: red ; 
+    }
+
+    label{
+        border:1px solid blue;
+        }
+    .link {
+        color: rebeccapurple;
+    }
+     
+    
+     body { background:  Linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+        linear-gradient(127deg, black, black 70.71%),
+        linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+        height: 2000px;
+        font-family:"montserrat";
+     }
+
+   .l{
+    font-size: 20px;
+    font-style: oblique;
+   }
+
+     {
+        display:inline;
+     } 
+
+     .bg {
+        background-image: url("https://blog.flexvision.be/wp-content/uploads/2017/12/Christmas-Lights-Tumblr-19.jpg"); 
+        height: 15px;
+        padding-top:100px;
+        padding-bottom: 100px;
+
+      }
+      .info {
+          font-size : 20px ;
+          color: black;
+      }
+    
+       
+
+ 
+  a:link {
+    background-color: #f44336;
+    color: white;
+    padding: 28px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 100px;
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+   
+    align-content: space-between;
+  }
+  a:visited{
+    background-color: green;
+    color: white;
+    padding: 28px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 100px;
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+   
+    align-content: space-between;
+
+  }
+  
+  a:hover {
+    background-color:blue;
+    color: white;
+    padding: 28px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 100px;
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    
+    align-content: space-between;
+  }
+
+  a:active{
+    background-color : cyan;
+    color: white;
+    padding: 28px 50px;
+    text-align: center;
+    text-decoration: navajowhite;
+    display: inline-block;
+    margin-right: 100px;
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    align-content: space-between;
+  } 
+
+  .h
+{   margin 0;
+    font-size: 40px;
+    margin-bottom:10px;
+    margin-top:0px;
+    padding-top:0px;
+
+}
+.bg{
+    padding-top:100px;
+    padding-bottom: 100px;
+}
+
+h{
+font-size:40px ;
+color :black;
+}
+
+
+      
+      
