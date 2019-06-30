@@ -1,0 +1,197 @@
+*
+{
+    padding:0; 
+    margin: 0px; 
+}
+h1{
+    color: black; 
+    border-style:solid; 
+    background-color: red ; 
+    }
+
+    label{
+        border:1px solid blue;
+        }
+    .link {
+        color: rebeccapurple;
+    }
+     
+    
+     body { background:  Linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+        linear-gradient(127deg, black, black 70.71%),
+        linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+        height: 2000px;
+        font-family:"montserrat";
+     }
+
+   .l{
+    font-size: 20px;
+    font-style: oblique;
+   }
+
+     {
+        display:inline;
+     } 
+
+     .bg {
+        background-image: url("https://blog.flexvision.be/wp-content/uploads/2017/12/Christmas-Lights-Tumblr-19.jpg"); 
+        height: 15px;
+        padding-top:100px;
+        padding-bottom: 100px;
+      
+
+      }
+      .info {
+          font-size : 20px ,solid ,bold;
+          color: black;
+          
+      }
+    
+       
+/*
+ 
+  a:link {
+    background-color: #f44336;
+    color: white;
+    padding: 28px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 100px;
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+   
+    align-content: space-between;
+  }
+  a:visited{
+    background-color: green;
+    color: white;
+    padding: 28px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 100px;
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+   
+    align-content: space-between;
+
+  }
+  
+  a:hover {
+    background-color:blue;
+    color: white;
+    padding: 28px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 100px;
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    
+    align-content: space-between;
+  }
+
+  a:active{
+    background-color : cyan;
+    color: white;
+    padding: 28px 50px;
+    text-align: center;
+    text-decoration: navajowhite;
+    display: inline-block;
+    margin-right: 100px;
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    align-content: space-between;
+  } 
+
+  .h
+{   margin 0;
+    font-size: 40px;
+    margin-bottom:10px;
+    margin-top:0px;
+    padding-top:0px; 
+
+}*/
+.link {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.link span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.link span:after 
+{
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.link:hover span 
+{
+  padding-right: 25px;
+}
+
+.link:hover span:after
+{
+  opacity: 1;
+  right: 0;
+}
+
+
+.bg{
+    padding-top:100px;
+    padding-bottom: 100px;
+    margin-top:-60px;
+   
+}
+
+h{
+font-size:40px ;
+color :black;
+}
+
+button {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #f44336;
+} 
+button:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+.bar{
+  height: 100px;
+}
+
+
+
+      
+      
