@@ -8,11 +8,17 @@
         <link rel="stylesheet" href="style.css">
 
         <title>Document</title>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+        <!-- jQuery Modal -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 </head>
 
-
-
 <body>
+        <img src="https://user-images.githubusercontent.com/10379994/31985754-c56b8dba-b998-11e7-9705-a7f984433049.png"
+                style="width:50px;height:50px;">
         <center>
                 <div class="bg">
                         <a class="link" href="home.html"> Home </a>
@@ -23,39 +29,145 @@
                 </div>
 
                 <h1 class="h"> COURSES </h1>
-<br> <br>
-                
+                <br> <br>
+
                 <type="text">
                         <br>
 
-                        <label> Feedback</label>
+                        <label>
+                                <h3 class="feed">Feedback </h3>
+                        </label>
+
+                        <br>
+
+                        <div>
+                                <div class="bloc1">
+                                        <div class="image">
+                                                <p><a href="#ex1" rel="modal:open" class="lien">View more</a></p>
+                                                <div id="ex1" class="modal">
+                                                        <p>Thanks for clicking. That felt good.</p>
+                                                        <a href="#" rel="modal:close">Close</a>
+                                                </div>
+                                        </div>
+                                        <div class="image1">
+                                                <p><a href="#ex1" rel="modal:open" class="lien">View more</a></p>
+                                                <div id="ex1" class="modal">
+                                                        <p>Thanks for clicking. That felt good.</p>
+                                                        <a href="#" rel="modal:close">Close</a>
+                                                </div>
+                                        </div>
+                                        <div class="image2">
+                                                <p><a href="#ex1" rel="modal:open" class="lien">View more</a></p>
+                                                <div id="ex1" class="modal">
+                                                        <p>Thanks for clicking. That felt good.</p>
+                                                        <a href="#" rel="modal:close">Close</a>
+                                                </div>
+                                        </div>
+                                </div>
+                                <div>
+                                        <div class="bloc1">
+                                                <div class="image3">
+                                                        <p><a href="#ex1" rel="modal:open" class="lien">View more</a>
+                                                        </p>
+                                                        <div id="ex1" class="modal">
+                                                                <p>Thanks for clicking. That felt good.</p>
+                                                                <a href="#" rel="modal:close">Close</a>
+                                                        </div>
+                                                </div>
+                                                <!-- <div class="image3"><a class="lien"href="#">View more</a> </div> -->
+                                                <div class="image4">
+                                                        <p><a href="#ex1" rel="modal:open" class="lien">View more</a>
+                                                        </p>
+                                                        <div id="ex1" class="modal">
+                                                                <p>Thanks for clicking. That felt good.</p>
+                                                                <a href="#" rel="modal:close">Close</a>
+                                                        </div>
+                                                </div>
+                                                <div class="image5">
+                                                        <p><a href="#ex1" rel="modal:open" class="lien">View more</a>
+                                                        </p>
+                                                        <div id="ex1" class="modal">
+                                                                <p>Thanks for clicking. That felt good.</p>
+                                                                <a href="#" rel="modal:close">Close</a>
+                                                        </div>
+                                                </div>
+
+                                        </div>
+                                </div>
+                        </div>
+                
+
                         <type="text">
                                 <br>
 
-                                <select>
-                                        <option>20</option>
-                                        <option>40</option>
-                                        <option>60</option>
-                                        <option>80</option>
-
+                                <select id="font" onchange="change_font()">
+                                        <option disabled selected value> -- Font -- </option>
+                                        <option>Calibri</option>
+                                        <option>Impact</option>
+                                        <option>Courier New</option>
+                                        <option>Comic Sans MS</option>
+                                </select>
+                                <select id="size" onchange="change_size()">
+                                        <option disabled selected value> -- size -- </option>
+                                        <option value="20px"> 20 </option>
+                                        <option value="25px"> 25 </option>
+                                        <option value="30px"> 30 </option>
+                                        <option value="35px"> 35 </option>
+                                        <option value="40px"> 40 </option>
                                 </select>
 
-                                <select>
-                                        <option>Arial</option>
-                                        <option>Text</option>
+                                <button class="b" onclick="underline()">U</button>
+                                <button class="b" onclick="bold()">B</button>
+                                <button class="b" onclick="italic()">I</button>
 
+
+                                <select id="color" onchange="change_color()">
+                                        <option disabled selected value> -- color -- </option>
+                                        <option value="Red">Red</option>
+                                        <option value="Green">Green</option>
+                                        <option value="Blue">Blue</option>
+                                        <option value="Pink">Pink</option>
+                                        <option value="Cyan">Cyan</option>
                                 </select>
+                                <br> <br>
+                                <textarea id="myPara" cols="120" row="200" style="max-width: 70%;"></textarea>
 
-                                <select>
-                                        <option>Gras</option>
-                                        <option>normal</option>
-
-                                </select>
-                                </type>
-                                </type>
                                 </form>
                                 </div>
+
         </center>
+        <h2>VISIT US:</h2>
+        <center>
+                <table border=" 5 " width="400">
+                        <tr>
+                                <th> Area </th>
+                                <th> Adress </th>
+                        </tr>
+                        <tr>
+                                <td>
+                                        <pre>Ariana </pre>
+                                </td>
+                                <td colspan="2">
+                                        <pre>Raoued </pre>
+                                </td>
+                        </tr>
+                        <tr>
+                                <td>
+                                        <pre>Tunis </pre>
+                                </td>
+                                <td>
+                                        <pre>Lac1 </pre>
+                                </td>
+                        </tr>
+                </table>
+        </center>
+        <footer>
+
+                <img src="res/esprit.png" width=" 50 " height=" 50 "> </a>
+                <img src="res/vs.ico" width=" 50 " height=" 50 "> </a>
+                <img src="res/ps.jpg" width=" 50 " height=" 50 "> </a>
+        </footer>
 </body>
+<script src="main.js"></script>
 
 </html>
